@@ -1,0 +1,57 @@
+# Node modules
+node_modules/
+*.lock
+package-lock.json
+yarn.lock
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+
+# Build directories
+dist/
+build/
+.vite/
+.vscode/
+
+# IDE specific files
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Cache
+.cache/
+
+# Temp files
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Testing
+coverage/
+
+# Debug
+debug/
+*.pid
+
+# Backend specific
+backend/config/local.*
+backend/logs/
